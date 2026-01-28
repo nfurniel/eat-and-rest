@@ -1,0 +1,25 @@
+.lista-reservas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item-reserva {
+    background: white;
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        margin: 0 0 5px 0;
+        color: var(--dark);
+    }
+
+    p {
+        margin: 0;
+        color: #666;
+    }
+}

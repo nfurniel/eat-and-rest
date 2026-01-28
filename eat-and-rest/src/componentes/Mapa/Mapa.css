@@ -1,0 +1,8 @@
+.mapa-contenedor {
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    position: relative;
+    z-index: 0;
+}

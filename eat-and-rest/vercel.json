@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/zaragoza/:path*",
+            "destination": "https://www.zaragoza.es/sede/servicio/:path*"
+        },
+        {
+            "source": "/api/murcia/:path*",
+            "destination": "https://nexo.carm.es/nexo/archivos/recursos/opendata/json/:path*"
+        }
+    ]
+}

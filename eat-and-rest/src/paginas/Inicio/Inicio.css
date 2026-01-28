@@ -1,0 +1,45 @@
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--light);
+    border-radius: var(--radius);
+    margin-bottom: 40px;
+
+    h1 {
+        font-size: 3rem;
+        color: var(--dark);
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .btn-grande {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .feature {
+        flex: 1;
+        min-width: 250px;
+        background: white;
+        padding: 20px;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        text-align: center;
+
+        h3 {
+            color: var(--primary);
+        }
+    }
+}
